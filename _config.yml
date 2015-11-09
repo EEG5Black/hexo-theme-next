@@ -18,7 +18,6 @@ rss:
 
 
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -57,7 +56,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -77,23 +76,9 @@ sidebar: post
 #sidebar: remove
 
 
-# Social links
-# social:
-  #GitHub:
-  #Others:
-
-# Social Icons
-social_icons:
-  enable: true
-  # Icon Mappings
-  GitHub: github
-  Twitter: twitter
-  Weibo: weibo
-
-
 # Sidebar Avatar
-#avatar:
-
+# 侧边栏头像
+avatar: /images/avatar.png
 
 # Social links
 # social:
@@ -128,8 +113,8 @@ toc:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: /images/MyLogo.png
 
 
 # Code Highlight theme
@@ -166,7 +151,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: "test"
 
 # Disqus
 #disqus_shortname:
@@ -175,7 +160,7 @@ mathjax:
 #jiathis:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -191,9 +176,9 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: ROOT
+  admin_enable: true
+  user_id: 14065077  
+  admin_nickname: "大Lee子"
 
 
 # Facebook SDK Support.
